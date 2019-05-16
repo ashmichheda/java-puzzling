@@ -19,6 +19,7 @@ Good practice is to do in both the products. Thus, the program won't overflow & 
 
 public class LongDivision {
     public static void main(String[] args) {
+		
         final long MICROS_PER_DAY = 24L * 60 * 60 * 1000 * 1000;
         final long MILLIS_PER_DAY = 24L * 60 * 60 * 1000;
 
