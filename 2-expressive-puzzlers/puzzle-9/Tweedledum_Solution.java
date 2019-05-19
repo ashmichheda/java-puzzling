@@ -15,8 +15,8 @@ int i = 123456;
 
 x += i; // Contains a hidden cast!
 
-You might expect the value of x to be 123456, but it's -7616. The int value 123456 is too big to fit in a short. Thus the hidden cast silently lops off the two high-order bytes
-of the int value!
+You might expect the value of x to be 123456, but it's -7616. The int value 123456 is too big to fit in a short type. 
+Thus the hidden cast silently lops off the two high-order bytes of the int value!
 */
 
 
