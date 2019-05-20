@@ -12,7 +12,7 @@
 	one is INT, other is CHAR
 	
 	Thus in order to avoid the whole mess, 	the operands should be of the same type!
-	Hence, convert variable i to char!!
+	Hence, solution is to convert variable i to char datatype.
 
 */
 
