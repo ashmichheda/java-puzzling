@@ -1,12 +1,12 @@
 /*
 
-	The program consists of 2 variable declarations & 2 print statements having a conditional expression
-	The 1st, prints the result which is the value of x i.e. X
-	The 2nd, prints the result which is again the value of x i.e. X
-	So the program should print 'XX'
-	But ideally the program prints 'X88' !
+	The program consists of 2 variable declarations & 2 print statements having conditional expressions.
+	The 1st sysout, prints the result which is the value of x i.e. X
+	The 2nd sysout, prints the result which is again the value of x i.e. X
+	So the program should ideally print 'XX'.
+	But the program prints 'X88' !
 	
-	Why? The first print prints X and the second prints 88. Why such strange behaviour?
+	Why is that so? The first print prints X and the second prints 88. Why such strange behaviour?
 	
 	Because, the operands used in the conditional expression are of different types
 	one is INT, other is CHAR
