@@ -10,9 +10,7 @@ If i were to manually subtract the 2 numbers, i would expect the output to be 0.
 But the program prints 0.8999999999999999.
 
 Actually the problem is that 1.1 can't be represented exactly as double, so it's represented by its closest double value.
-Hence one should avoid using float or double in monetary calculations & INSTEAD use int or long or BigDecimal
-
-
+Hence one should avoid using float or double in monetary calculations & INSTEAD use int or long or BigDecimal as data types.
 */
 
 
