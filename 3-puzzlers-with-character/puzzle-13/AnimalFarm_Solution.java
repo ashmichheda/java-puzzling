@@ -17,10 +17,8 @@ System.out.println(("Animals are equal: " + pig) == dog);
 
 There is one surefire way to avoid this sort of difficulty:
 --> When using the string concatenation operator, always parenthesize nontrivial
-operands. More generally, when you are not sure whether you need parentheses,
-err on the side of caution and include them. If you parenthesize the comparison in
-the println statement as follows, it will produce the expected output of
-Animals are equal: false:
+operands. More generally, when you are not sure whether you need parentheses, do include them. 
+If you parenthesize the comparison in the println statement as follows, it will produce the expected output of Animals are equal: false:
 
 System.out.println("Animals are equal: " + (pig == dog));
 
@@ -36,7 +34,6 @@ public class AnimalFarm {
         final String pig = "length: 10";
         final String dog = "length: " + pig.length();
 
-        System.out.println("Animals are equal: "
-                           + pig == dog);
+        System.out.println("Animals are equal: "+ pig == dog);
     }
 }
