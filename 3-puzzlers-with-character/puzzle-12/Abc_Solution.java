@@ -11,8 +11,7 @@ Basically, it's returning the unsigned hexadecimal representation of the hashcod
 There are two ways to fix it. You can explicitly convert the array to a string
 before invoking string concatenation:
 
-1)
-System.out.println(letters + " easy as " + String.valueOf(numbers));
+1) System.out.println(letters + " easy as " + String.valueOf(numbers));
 
 2) Alternatively, you can break the System.out.println invocation in two to
 make use of the char[] overloading of println:
