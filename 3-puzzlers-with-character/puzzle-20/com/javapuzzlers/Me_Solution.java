@@ -1,6 +1,3 @@
-package com.javapuzzlers;
-
-
 /*
 The program appears to obtain is class Name ("com.javapuzzlers.Me_Solution"),
 replace all occurrences of "." with "/" and append the string with ".class"
@@ -20,8 +17,8 @@ Thus, now the following program should print: com/javapuzzlers/Me_Solution.class
 
 
 
-
 */
+package com.javapuzzlers;
 public class Me_Solution {
    public static void main(String[] args) {
       System.out.println(
